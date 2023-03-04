@@ -19,19 +19,19 @@ class Program{
 
             if (input == "1")
             {
-                justBreathe = new Breathing();
+                var justBreathe = new Breathing();
                 justBreathe.Time;
                 justBreathe.breath;
             }
             else if (input == "2")
             {
-                makeList = new listing();
+                var makeList = new listing();
                 makeList.Time;
                 makeList.Lactivity;
             }
             else if (input == "3")
             {
-                reflection = new reflect();
+                var reflection = new reflect();
                 reflection.Time;
                 reflection.Reflect;
             }
